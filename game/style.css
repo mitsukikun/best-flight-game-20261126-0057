@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #0b1220;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+#wrap {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+#game {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+#overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  color: #eaf2ff;
+}
